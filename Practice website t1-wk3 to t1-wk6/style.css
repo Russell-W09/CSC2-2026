@@ -1,46 +1,85 @@
 
+* {
+  /* should design the website before screwing up the looks
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  */
+
+  /* thing that gives an outline around every element for easier viewing
+  note: I used solid for now for easier viewing */
+  border: 1px solid rgb(148, 95, 95);
+  margin: 2px;
+  
+
+}
 
 
 
-/* for variables/functions later on */ 
+/* for variables/functions later on */   
 
 	
 	:root { 
 		
-	/*
-		base colour option 1
-		--base-colour-1a: #D2C6C1; 
-		--base-colour-2a: #68D9BD; 
-		--base-colour-3a: #383399; 
-		--base-colour-4a: #C8D6C7; 
-		*/
+    /*
+		base colour option 1 */
+		--base-colour-1a: #FCF7F8; 
+		--base-colour-2a: #CED3DC; 
+		--base-colour-3a: #ABA9C3; 
+		--base-colour-4a: #275DAD; 
+    --base-colour-5a: #5B616A; 
+		
 
 		/*
-		base colour option 2
+		base colour option 2 */
 		--base-colour-1b: #2E7B28; 
 		--base-colour-2b: #3C5C74; 
 		--base-colour-3b: #4F5ADE; 
 		--base-colour-4b: #E4ECF1; 
-		*/
+		
 
 		/*
-		base colour option 3
+		base colour option 3 */
 		--base-colour-1c: #A7CECB; 
 		--base-colour-2c: #8BA6A9; 
 		--base-colour-3c: #75704E; 
 		--base-colour-4c: #CACC90; 
 		--base-colour-5c: #F4EBBE; 
-		*/
+		
 
 		/*
-		base colour option 4
+		base colour option 4 */
 		--base-colour-1d: #CBE896; 
 		--base-colour-2d: #AAC0AA; 
 		--base-colour-3d: #FCDFA6; 
 		--base-colour-4d: #A18276; 
 		--base-colour-5d: #F4B886; 
-		*/
+		
 
+		/*
+		base colour option 5 */
+		--base-colour-1e: #555B6E; 
+		--base-colour-2e: #89B0AE;
+		--base-colour-3e: #BEE3DB;
+		--base-colour-4e: #FAF9F9; 
+		--base-colour-5e: #FFD6BA; 
+		
+    /*
+    base colour option 6 */
+    --base-colour-1f: #247BA0; 
+		--base-colour-2f: #70C1B3;
+		--base-colour-3f: #B2DBBF;
+		--base-colour-4f: #F3FFBD; 
+		--base-colour-5f: #FF1654; 
+    
+    /*
+    base colour option 7 */
+    --base-colour-1g: #0D1821; 
+		--base-colour-2g: #344966;
+		--base-colour-3g: #B4CDED;
+		--base-colour-4g: #F0F4EF; 
+		--base-colour-5g: #BFCC94; 
+    
 	}
 	
 
@@ -49,6 +88,160 @@
 	}
 
 	h1{
-		: #D2C6C1;
+	 
   }
 
+
+     
+    .box-1a {
+      background-color: var(--base-colour-1a) ; 
+    }
+
+    .box-2a {
+      background-color: var(--base-colour-2a);
+    }
+    
+    .box-3a {
+      background-color: var(--base-colour-3a);
+    }
+
+    .box-4a {
+      background-color: var(--base-colour-4a);
+    }
+
+    .box-5a {
+      background-color: var(--base-colour-5a);
+    }
+    
+    
+    /* filler for space */
+
+
+    .box-1b {
+      background-color: var(--base-colour-1b);
+    }
+
+    .box-2b {
+      background-color: var(--base-colour-2b);
+    }
+    
+    .box-3b {
+      background-color: var(--base-colour-3b);
+    }
+    
+    .box-4b {
+      background-color: var(--base-colour-4b);
+    }
+
+    /* filler for space */
+    
+    .box-1c {
+      background-color: var(--base-colour-1c);
+    }
+
+    .box-2c {
+      background-color: var(--base-colour-2c);
+    }
+
+    .box-3c {
+      background-color: var(--base-colour-3c);
+    }
+    
+    .box-4c {
+      background-color: var(--base-colour-4c);
+    }
+    
+    .box-5c {
+      background-color: var(--base-colour-5c);
+    }
+
+      /* filler for space */
+    
+    .box-1d {
+      background-color: var(--base-colour-1d);
+    }
+
+    .box-2d {
+      background-color: var(--base-colour-2d);
+    }
+
+    .box-3d {
+      background-color: var(--base-colour-3d);
+    }
+    
+    .box-4d {
+      background-color: var(--base-colour-4d);
+    }
+    
+    .box-5d {
+      background-color: var(--base-colour-5d);
+    }
+
+    /* filler for space */
+    
+    .box-1e {
+      background-color: var(--base-colour-1e);
+    }
+
+    .box-2e {
+      background-color: var(--base-colour-2e);
+    }
+
+    .box-3e {
+      background-color: var(--base-colour-3e);
+    }
+    
+    .box-4e {
+      background-color: var(--base-colour-4e);
+    }
+    
+    .box-5e {
+      background-color: var(--base-colour-5e);
+    }
+
+    /* filler for space */
+
+    .box-1f {
+      background-color: var(--base-colour-1f);
+    }
+
+    .box-2f {
+      background-color: var(--base-colour-2f);
+    }
+
+    .box-3f {
+      background-color: var(--base-colour-3f);
+    }
+    
+    .box-4f {
+      background-color: var(--base-colour-4f);
+    }
+    
+    .box-5f {
+      background-color: var(--base-colour-5f);
+    }
+
+    /* filler for space */
+
+    .box-1g {
+      background-color: var(--base-colour-1g);
+    }
+
+    .box-2g {
+      background-color: var(--base-colour-2g);
+    }
+
+    .box-3g {
+      background-color: var(--base-colour-3g);
+    }
+    
+    .box-4g {
+      background-color: var(--base-colour-4g);
+    }
+    
+    .box-5g {
+      background-color: var(--base-colour-5g);
+    }
+
+
+  
