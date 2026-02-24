@@ -2,9 +2,53 @@
 
 
 
-/* for variables/functions later on 
-:root {
+/* for variables/functions later on */ 
 
-}
+	
+	:root { 
+		
+	/*
+		base colour option 1
+		--base-colour-1a: #D2C6C1; 
+		--base-colour-2a: #68D9BD; 
+		--base-colour-3a: #383399; 
+		--base-colour-4a: #C8D6C7; 
+		*/
 
-*/
+		/*
+		base colour option 2
+		--base-colour-1b: #2E7B28; 
+		--base-colour-2b: #3C5C74; 
+		--base-colour-3b: #4F5ADE; 
+		--base-colour-4b: #E4ECF1; 
+		*/
+
+		/*
+		base colour option 3
+		--base-colour-1c: #A7CECB; 
+		--base-colour-2c: #8BA6A9; 
+		--base-colour-3c: #75704E; 
+		--base-colour-4c: #CACC90; 
+		--base-colour-5c: #F4EBBE; 
+		*/
+
+		/*
+		base colour option 4
+		--base-colour-1d: #CBE896; 
+		--base-colour-2d: #AAC0AA; 
+		--base-colour-3d: #FCDFA6; 
+		--base-colour-4d: #A18276; 
+		--base-colour-5d: #F4B886; 
+		*/
+
+	}
+	
+
+	body {
+
+	}
+
+	h1{
+		: #D2C6C1;
+  }
+
