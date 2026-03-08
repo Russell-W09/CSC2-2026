@@ -8,27 +8,25 @@
 
 * {
   /* should design the website before screwing up the looks */
+  /* change margin and padding to 0px afterwards */
   
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+  border: 2px solid red;
+  
+  /*
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  border: 1px solid red; 
-  
-
-  /* thing that gives an outline around every element for easier viewing
-  note: I used solid for now for easier viewing */
-  /*
-  border: 1px solid rgb(148, 95, 95);
-  margin: 2px;
+  border: 0px solid black;
   */
-
 }
 
 
 
 /* for variables/functions later on */   
 
-	
 	:root { 
 		
     /* base colour option 1 */
@@ -103,31 +101,38 @@
 	}
 	
 
-	body {
+    body {
 
-	}
+    }
 
-	h1{
-	 
-  }
+    h1{
+    
+    } 
+    
+    header{
+      background-color: lightgreen;
+      justify-items: center;
+      align-content: center;
+      height: 150px;
+      font-size: 70px;
+      
+    }
+
 
     /* navigation bar styling */ 
     
     nav {
       position: sticky;
       top: 0;
-      display: grid;
-      /* this is messing up the nav bar rn
-      grid-template-columns: repeat(4, 1fr); */
     }
 
     nav ul {
       list-style-type: none;
       overflow: hidden;
-      
-      display: flex;
       justify-content: space-evenly;
       background-color: var(--base-colour-2g);
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
     }
 
     nav ul li {
@@ -136,22 +141,11 @@
       display: inline-block;
       font-weight: bold;
       white-space: no-wrap;
-      padding: 10px 10px;
-      background-color:pink; /* might need to make a grid to make each one to have even space */
+      /* this makes a box around the listed item
+      padding: 10px 10px; */
+      background-color: var(--base-colour-2g); /* might need to make a grid to make each one to have even space */
       border-right: 1px solid black; /* hard to see for now but is a divider */
     }
-
-    /* idk if this is working
-    nav ul li .box-nav-1a {
-      grid-column: span 1;
-    }
-
-    nav ul li .box-nav-2a {
-      grid-column: span 1;
-    }
-    
-    */
-
 
     nav ul li:last-child{
       border-right: none;
@@ -159,25 +153,24 @@
 
     nav ul li a {
       display: block;
-      color: var(--base-colour-3g);
+      color: white;
       text-align: center;
       text-decoration: none;
       padding: 10px 10px;
-      border-radius: 15px;
+      
       /* might need later to help remove features off of the thing
       text-decoration: none; */
     }
 
+    /* the a.active has to be before a:hover due to specificity rules or something */
+    nav ul li a.active {
+      background-color: var(--base-colour-5g); 
+    }
+
     nav ul li a:hover {
       background-color: var(--base-colour-4g);
-      color: var(--base-colour-1g);
-
+      color: var(--base-colour-1g );
     } 
-
-    nav ul li a.active {
-      
-      background-color: var(--base-colour-1g); 
-    }
 
 
 

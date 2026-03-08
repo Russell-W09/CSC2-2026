@@ -1,0 +1,83 @@
+
+
+* {
+    
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    border: 1px solid red; 
+    
+  }
+
+
+    nav {
+      position: sticky;
+      top: 0;
+
+    }
+
+    nav ul {
+      list-style-type: none;
+      overflow: hidden;
+      
+      
+      justify-content: space-evenly;
+      background-color: var(--base-colour-2g);
+      
+      display: grid;
+      grid-template-columns: repeat(9, 1fr); 
+    }
+
+    nav ul li {
+      /* this doesn't work to make the highlight part go slow 
+      transition: color 5.0s ease-in 2s; */
+      display: inline-block;
+      font-weight: bold;
+      white-space: no-wrap;
+      padding: 10px 10px;
+      background-color:pink; /* might need to make a grid to make each one to have even space */
+      border-right: 1px solid black; /* hard to see for now but is a divider */
+    }
+
+    /* idk if this is working
+    nav ul li .box-nav-1a {
+      grid-column: span 1;
+    }
+
+    nav ul li .box-nav-2a {
+      grid-column: span 1;
+    }
+    
+    */
+
+
+    nav ul li:last-child{
+      border-right: none;
+    }
+
+    nav ul li a {
+      display: block;
+      color: var(--base-colour-3g);
+      text-align: center;
+      text-decoration: none;
+      padding: 10px 10px;
+      border-radius: 15px;
+      /* might need later to help remove features off of the thing
+      text-decoration: none; */
+    }
+
+    nav ul li a:hover {
+      background-color: var(--base-colour-4g);
+      color: var(--base-colour-1g);
+
+    } 
+
+    nav ul li a.active {
+      
+      background-color: var(--base-colour-1g); 
+    }
+
+
+
+
+
