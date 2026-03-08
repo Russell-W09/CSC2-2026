@@ -1,9 +1,11 @@
+/* #region filler-stuff-for-files */
 /* Patrick Hand */
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 /* Story Script */
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
+/* #endregion */
 
 
 * {
@@ -21,84 +23,82 @@
   box-sizing: border-box;
   border: 0px solid black;
   */
+  
 }
 
 
 
 /* for variables/functions later on */   
 
-	:root { 
-		
-    /* base colour option 1 */
-		--base-colour-1a: #FCF7F8; 
-		--base-colour-2a: #CED3DC; 
-		--base-colour-3a: #ABA9C3; 
-		--base-colour-4a: #275DAD; 
-    --base-colour-5a: #5B616A; 
-		
+    :root { 
+      
+      /* base colour option 1 */
+      --base-colour-1a: #FCF7F8; 
+      --base-colour-2a: #CED3DC; 
+      --base-colour-3a: #ABA9C3; 
+      --base-colour-4a: #275DAD; 
+      --base-colour-5a: #5B616A; 
+      
 
-		/* base colour option 2 */
-		--base-colour-1b: #2E7B28; 
-		--base-colour-2b: #3C5C74; 
-		--base-colour-3b: #4F5ADE; 
-		--base-colour-4b: #E4ECF1; 
-		
+      /* base colour option 2 */
+      --base-colour-1b: #2E7B28; 
+      --base-colour-2b: #3C5C74; 
+      --base-colour-3b: #4F5ADE; 
+      --base-colour-4b: #E4ECF1; 
+      
 
-		/* base colour option 3 */
-		--base-colour-1c: #A7CECB; 
-		--base-colour-2c: #8BA6A9; 
-		--base-colour-3c: #75704E; 
-		--base-colour-4c: #CACC90; 
-		--base-colour-5c: #F4EBBE; 
-		
+      /* base colour option 3 */
+      --base-colour-1c: #A7CECB; 
+      --base-colour-2c: #8BA6A9; 
+      --base-colour-3c: #75704E; 
+      --base-colour-4c: #CACC90; 
+      --base-colour-5c: #F4EBBE; 
+      
 
-		/* base colour option 4 */
-		--base-colour-1d: #CBE896; 
-		--base-colour-2d: #AAC0AA; 
-		--base-colour-3d: #FCDFA6; 
-		--base-colour-4d: #A18276; 
-		--base-colour-5d: #F4B886; 
-		
+      /* base colour option 4 */
+      --base-colour-1d: #CBE896; 
+      --base-colour-2d: #AAC0AA; 
+      --base-colour-3d: #FCDFA6; 
+      --base-colour-4d: #A18276; 
+      --base-colour-5d: #F4B886; 
+      
 
-		/* base colour option 5 */
-		--base-colour-1e: #555B6E; 
-		--base-colour-2e: #89B0AE;
-		--base-colour-3e: #BEE3DB;
-		--base-colour-4e: #FAF9F9; 
-		--base-colour-5e: #FFD6BA; 
-		
-    /* base colour option 6 */
-    --base-colour-1f: #247BA0; 
-		--base-colour-2f: #70C1B3;
-		--base-colour-3f: #B2DBBF;
-		--base-colour-4f: #F3FFBD; 
-		--base-colour-5f: #FF1654; 
-    
-    /* base colour option 7 */
-    --base-colour-1g: #0D1821; 
-		--base-colour-2g: #344966;
-		--base-colour-3g: #B4CDED;
-		--base-colour-4g: #F0F4EF; 
-		--base-colour-5g: #BFCC94; 
+      /* base colour option 5 */
+      --base-colour-1e: #555B6E; 
+      --base-colour-2e: #89B0AE;
+      --base-colour-3e: #BEE3DB;
+      --base-colour-4e: #FAF9F9; 
+      --base-colour-5e: #FFD6BA; 
+      
+      /* base colour option 6 */
+      --base-colour-1f: #247BA0; 
+      --base-colour-2f: #70C1B3;
+      --base-colour-3f: #B2DBBF;
+      --base-colour-4f: #F3FFBD; 
+      --base-colour-5f: #FF1654; 
+      
+      /* base colour option 7 */
+      --base-colour-1g: #0D1821; 
+      --base-colour-2g: #344966;
+      --base-colour-3g: #B4CDED;
+      --base-colour-4g: #F0F4EF; 
+      --base-colour-5g: #BFCC94; 
 
-    /* fonts can be adjusted so it'll affect all using it */
-    .patrick-hand-regular {
-      font-family: "Patrick Hand", cursive;
-      font-weight: 400;
-      font-style: normal;
+      /* fonts can be adjusted so it'll affect all using it */
+      .patrick-hand-regular {
+        font-family: "Patrick Hand", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .story-script-regular {
+        font-family: "Story Script", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+
     }
-
-    .story-script-regular {
-      font-family: "Story Script", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-
-    .
-
-
-    
-	}
 	
 
     body {
@@ -115,11 +115,11 @@
       align-content: center;
       height: 150px;
       font-size: 70px;
-      
     }
 
-
+ 
     /* navigation bar styling */ 
+    /* #region navigation bar styling */
     
     nav {
       position: sticky;
@@ -132,6 +132,7 @@
       justify-content: space-evenly;
       background-color: var(--base-colour-2g);
       display: grid;
+      /* this needs to be adjusted for the final bits/editing */
       grid-template-columns: repeat(6, 1fr);
     }
 
@@ -156,10 +157,48 @@
       color: white;
       text-align: center;
       text-decoration: none;
-      padding: 10px 10px;
+      padding: 30px 30px;
       
       /* might need later to help remove features off of the thing
       text-decoration: none; */
+    }
+
+    nav ul li a .drop-button { 
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+
+    }
+    
+    /* used by w3schools demo
+    nav ul li a:hover, .box-nav-2a:hover .drop-button {
+      background-color: red;
+    }
+    */
+
+    li.box-nav-2a {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: var(--base-colour-2g);
+      /* this value needs to scale with the page when it changes size/resolution
+      min-width: 317px;
+      */
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
     }
 
     /* the a.active has to be before a:hover due to specificity rules or something */
@@ -172,12 +211,22 @@
       color: var(--base-colour-1g );
     } 
 
+    .dropdown-content a:hover {
+      background-color: var(--base-colour-4g);
+      color: var(--base-colour-1g );
+    }
 
+    .box-nav-2a:hover .dropdown-content {
+      display: block;
+    }
 
+    /* #endregion */
 
 
 
     /* colours page */ 
+    /* #region filler-colour-page */
+
     .box-1a {
       background-color: var(--base-colour-1a) ; 
     }
@@ -328,5 +377,6 @@
       background-color: var(--base-colour-5g);
     }
 
+    /* #endregion */
 
   
