@@ -22,12 +22,12 @@
   border: 2px solid red;
   
   
-  
+  /*
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   border: 0px solid black;
-  
+  */
   
 }
 
@@ -332,8 +332,6 @@
       font-size: 50px;
     }
 
-    /* header-container for gears + how to play*/
-
     .header-container {
       display: flex;
       justify-content: space-between;
@@ -399,6 +397,10 @@
     /* #endregion */
     
 
+    /* filler text --------------------------------------------------- */
+
+
+
     /* gear page-1 */
     /* #region gear rackets */
 
@@ -420,6 +422,8 @@
 
 
     /*
+
+
     /* how-to-play page */
     /* #region play-main page */
 
@@ -480,9 +484,9 @@
     .play-main-grid p {
       font-size: 30px;
     }
-    
-    .play-main-grid ul {
-      padding: 15px;
+
+    .play-main-grid ul{
+      padding: 10px 20px;
     }
 
     .play-main-grid li {
@@ -521,12 +525,19 @@
       max-height: 90%;
       object-fit: contain;
     }
-
-
-
    
-    /* endregion */
+    /* end region */
     
+    /* famous atheletes page */
+    /* #region famous athletes */
+    
+    
+    nav ul {
+      
+    }
+
+
+    /* #endregion */
 
 
     /* colours page */ 
@@ -683,3 +694,18 @@
     }
 
     /* #endregion */
+
+
+
+
+    /* @media stuff/responsive design */
+    /* #region @media stuff */
+
+    /*  */
+
+    /* #endregion*/
+
+
+
+
+
